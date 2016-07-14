@@ -15,6 +15,8 @@
 		E244C7501D373F740006E57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E244C74E1D373F740006E57C /* LaunchScreen.storyboard */; };
 		E244C75B1D373F740006E57C /* WJGlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E244C75A1D373F740006E57C /* WJGlowTests.m */; };
 		E244C7661D373F740006E57C /* WJGlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E244C7651D373F740006E57C /* WJGlowUITests.m */; };
+		E244C7761D3741270006E57C /* WJGlowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E244C7751D3741270006E57C /* WJGlowLayer.m */; };
+		E244C77E1D3783C10006E57C /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E244C77D1D3783C10006E57C /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E244C7611D373F740006E57C /* WJGlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJGlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E244C7651D373F740006E57C /* WJGlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJGlowUITests.m; sourceTree = "<group>"; };
 		E244C7671D373F740006E57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E244C7741D3741270006E57C /* WJGlowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJGlowLayer.h; sourceTree = "<group>"; };
+		E244C7751D3741270006E57C /* WJGlowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJGlowLayer.m; sourceTree = "<group>"; };
+		E244C77D1D3783C10006E57C /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		E244C73F1D373F740006E57C /* WJGlow */ = {
 			isa = PBXGroup;
 			children = (
+				E244C7731D3741110006E57C /* WJGlowLayer */,
 				E244C7431D373F740006E57C /* AppDelegate.h */,
 				E244C7441D373F740006E57C /* AppDelegate.m */,
 				E244C7461D373F740006E57C /* ViewController.h */,
@@ -117,6 +123,7 @@
 		E244C7401D373F740006E57C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E244C77D1D3783C10006E57C /* heart.png */,
 				E244C7411D373F740006E57C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +145,15 @@
 				E244C7671D373F740006E57C /* Info.plist */,
 			);
 			path = WJGlowUITests;
+			sourceTree = "<group>";
+		};
+		E244C7731D3741110006E57C /* WJGlowLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E244C7741D3741270006E57C /* WJGlowLayer.h */,
+				E244C7751D3741270006E57C /* WJGlowLayer.m */,
+			);
+			path = WJGlowLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +261,7 @@
 			files = (
 				E244C7501D373F740006E57C /* LaunchScreen.storyboard in Resources */,
 				E244C74D1D373F740006E57C /* Assets.xcassets in Resources */,
+				E244C77E1D3783C10006E57C /* heart.png in Resources */,
 				E244C74B1D373F740006E57C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +290,7 @@
 				E244C7481D373F740006E57C /* ViewController.m in Sources */,
 				E244C7451D373F740006E57C /* AppDelegate.m in Sources */,
 				E244C7421D373F740006E57C /* main.m in Sources */,
+				E244C7761D3741270006E57C /* WJGlowLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
